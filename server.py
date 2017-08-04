@@ -5,14 +5,15 @@ app = Flask(__name__)
 @app.route('/')
 def root():
     return '''
-    <html>
-    <script>
-        alert('Welcome');
-    </script>
-        <body style="background: skyblue">
-        <center><h1>This is sample app from a container - 01 DevOps <br> this is blue</h1> </center>
+<html>
+        <body style='background:#FAFAFA'>
+            <center>
+                <div  style='background: #0DCBAB; width: 400px; height: 100px; color: white; margin: 100px; font-family: calibri; font-size: 30px; box-radius: 10px'>
+                    Welcome to sample flask app   <b>container</b>
+                </div>
+            </center>
         <body>
-    </html>
+<html>
 
     '''
 
