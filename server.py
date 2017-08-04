@@ -6,8 +6,8 @@ app = Flask(__name__)
 def root():
     return '''
     <html>
-        <body style="background: skyblue">
-        <center><h1>This is sample app from a container - 01 DevOps</h1> </center>
+        <body style="background: red">
+        <center><h1>This is sample app from a container - 01 DevOps <br> this is blue</h1> </center>
         <body>
     </html>
 
